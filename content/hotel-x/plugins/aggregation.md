@@ -16,17 +16,18 @@ Filters `Supplier` options based on _field keys_ applying a selector _function_ 
 It's based on [SQL Aggregate Functions](https://www.postgresql.org/docs/current/static/functions-aggregate.html) but filtering, not aggregating.
 
 * **_Field Keys_** as a combination of:
-  * SupplierCode 
-  * HotelCode
-  * BoardCode
-  * RoomCode
-  * Refundable
-  * Market
-  * PaymentType
-  * Promotion
-  * Supplement
-  * Surcharges
-  * Rate rules 
+  * currency
+  * supplier
+  * hotel
+  * market
+  * board
+  * payment
+  * room
+  * promotion
+  * supplement
+  * surcharges
+  * rateRules
+  * cancelPolicy
 
 ### Parameters
 
